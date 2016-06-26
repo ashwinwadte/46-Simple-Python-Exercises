@@ -13,7 +13,8 @@ Your task here is write a Python program capable of generating all the verses of
 def repeat_song():
     counter = 99
     for i in range(0,99):
-        print(str(counter) + "bottles of beer on the wall,"+ str(counter) + "bottles of beer.\n Take one down, pass it around,"+ (str(counter - 1)) + " bottles of beer on the wall.")
+        print(str(counter) + "bottles of beer on the wall,"+ str(counter) + "bottles of beer.")
+        print("Take one down, pass it around," + (str(counter - 1)) + " bottles of beer on the wall.")
         counter -= 1
 
 repeat_song()
