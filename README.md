@@ -129,7 +129,7 @@ Your task in this exercise is to define a function make_ing_form() which given a
 
 ***
 # Higher order functions and list comprehensions
-***
+
 ### Exercise 26 - Reduce or Max
 Using the higher order function reduce(), write a function max_in_list() that takes a list of numbers and returns the largest one. Then ask yourself: why define and call a new function, when I can just as well call the reduce() function directly?
 
@@ -151,7 +151,6 @@ Implement the higher order functions map(), filter() and reduce(). (They are bui
 
 ***
 # Simple exercises including I/O
-***
 
 ### Exercise 32 - Palindrome in File
 Write a version of a palindrome recogniser that accepts a file name from the user, reads each line, and prints the line to the screen if it is a palindrome.
@@ -225,7 +224,7 @@ In a game of Lingo, there is a hidden word, five characters long. The object of 
 
 ***
 # Somewhat Harder Exercises
-***
+
 ### Exercise 42- Sentence Splitter
 A sentence splitter is a program capable of splitting a text into sentences. The standard set of heuristics for sentence splitting includes (but isn't limited to) the following rules:
 
