@@ -84,10 +84,10 @@ Your task here is write a Python program capable of generating all the verses of
 ### [Exercise 20 - Swedish Translator]
 Represent a small bilingual lexicon as a Python dictionary in the following fashion {"merry":"god", "christmas":"jul", "and":"och", "happy":gott", "new":"nytt", "year":"år"} and use it to translate your Christmas cards from English into Swedish. That is, write a function translate() that takes a list of English words and returns a list of Swedish words.
 
-### Exercise 21 - Char Frequency
+### [Exercise 21 - Char Frequency]
 Write a function char_freq() that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Python dictionary. Try it with something like char_freq("abbabcbdbabdbdbabababcbcbab").
 
-### Exercise 22 - Caesar's Cipher
+### [Exercise 22 - Caesar's Cipher]
 In cryptography, a Caesar cipher is a very simple encryption techniques in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and so on. The method is named after Julius Caesar, who used it to communicate with his generals. ROT-13 ("rotate by 13 places") is a widely used example of a Caesar cipher where the shift is 13. In Python, the key for ROT-13 may be represented by means of the following dictionary:
 
 key = {'a':'n', 'b':'o', 'c':'p', 'd':'q', 'e':'r', 'f':'s', 'g':'t', 'h':'u', 
@@ -306,3 +306,5 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 18 - Pangram]: <https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/18%20-%20Pangram.py>
    [Exercise 19 - 99 Bottles of Beer]: <https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/19%20-%2099%20Bottles%20of%20Beer.py>
    [Exercise 20 - Swedish Translator]: <https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/20%20-%20Swedish%20Translator%202.py>
+   [Exercise 21 - Char Frequency]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/21%20-%20Char%20Frequency.py>
+   [Exercise 22 - Caesar's Cipher]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/22%20-%20Caesar's%20Cipher.py>
