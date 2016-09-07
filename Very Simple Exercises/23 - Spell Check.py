@@ -11,8 +11,8 @@ import re
 
 example = "This is very      funny and    cool.Indeed!"
 def correct(a_string):
-    check_spaces = re.sub(r'\s{2,}',' ',a_string)
-    make_spaces = re.sub(r'(\.)(\w)', r'\1 \2',check_spaces)
-    return make_spaces
+    check_space = re.sub(r'\s{2,}',' ',a_string)
+    make_space = re.sub(r'(\.)(\w)', r'\1 \2',check_space)
+    return make_space
 
 print correct(example)
