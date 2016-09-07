@@ -105,10 +105,10 @@ Note that since English has 26 characters, your ROT-13 program will be able to b
 
 
 
-### Exercise 23 - Spell Check
+### [Exercise 23 - Spell Check]
 Define a simple "spelling correction" function correct() that takes a string and sees to it that 1) two or more occurrences of the space character is compressed into one, and 2) inserts an extra space after a period if the period is directly followed by a letter. E.g. correct("This   is  very funny  and    cool.Indeed!") should return "This is very funny and cool. Indeed!" Tip: Use regular expressions!
 
-### Exercise 24 - Third Person Transformer
+### [Exercise 24 - Third Person Transformer]
 The third person singular verb form in English is distinguished by the suffix -s, which is added to the stem of the infinitive form: run -> runs. A simple set of rules can be given as follows:
 
 >If the verb ends in y, remove it and add ies
@@ -117,7 +117,7 @@ By default just add s
 
 Your task in this exercise is to define a function make_3sg_form() which given a verb in infinitive form returns its third person singular form. Test your function with words like try, brush, run and fix. Note however that the rules must be regarded as heuristic, in the sense that you must not expect them to work for all cases. Tip: Check out the string method endswith().
 
-### Exercise 25 - Present Participle Form
+### [Exercise 25 - Present Participle Form]
 In English, the present participle is formed by adding the suffix -ing to the infinite form: go -> going. A simple set of heuristic rules can be given as follows:
 
 >* If the verb ends in e, drop the e and add ing (if not exception: be, see, flee, knee, etc.)
@@ -308,3 +308,6 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 20 - Swedish Translator]: <https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/20%20-%20Swedish%20Translator%202.py>
    [Exercise 21 - Char Frequency]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/21%20-%20Char%20Frequency.py>
    [Exercise 22 - Caesar's Cipher]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/22%20-%20Caesar's%20Cipher.py>
+   [Exercise 23 - Spell Check]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/23%20-%20Spell%20Check.py>
+   [Exercise 24 - Third Person Transformer]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/24%20-%20Third%20Person%20Transformer.py>
+   [Exercise 25 - Present Participle Form]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/25%20-%20Present%20Participle%20Form.py>
