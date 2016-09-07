@@ -11,24 +11,27 @@ Test your function with words such as lie, see, move and hug.
 However, you must not expect such simple rules to work for all cases.
 '''
 import re
-example = ['move','try','hug']
+example = ['move','try','hug','jump','catch','share','eat','eradicate']
 
 def make_ing_form(list_of_strings):
     transformed_strings = []
     vowels = 'aeiou'
     for verb in list_of_strings:
         if verb.endswith('e'):
-            transformed_strings.append(re.sub(r'e', 'ing', verb))
+            transformed_strings.append(re.sub(r'e$', 'ing', verb))
 
         elif verb.endswith('ie'):
-            transformed_strings.append(re.sub(r'ie', 'ying', verb))
+            transformed_strings.append(re.sub(r'ie$', 'ying', verb))
 
         elif verb[-1] not in vowels:
             if verb[-2] in vowels:
                 if verb[-3] not in vowels:
                     transformed_strings.append(verb + verb[-1] + 'ing')
+                else:
+                    transformed_strings.append(verb + 'ing')
             else:
                 transformed_strings.append(verb + 'ing')
+
 
 
 
