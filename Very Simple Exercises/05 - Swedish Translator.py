@@ -12,6 +12,6 @@ def translate(text):
         translated += i
         if i not in vowels:
             translated += 'o' + i
-    print(translated)
+    return translated
 
-translate(text_to_translate)
+print translate(text_to_translate)

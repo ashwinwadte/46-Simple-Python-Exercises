@@ -11,8 +11,8 @@ word = input("Input text so I can check if it's a palindrome")
 def palindrome_checker(text):
     text = re.sub(r'[^a-zA-Z]', "",text).lower()
     if text == text[::-1]:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
-palindrome_checker(word)
+print palindrome_checker(word)

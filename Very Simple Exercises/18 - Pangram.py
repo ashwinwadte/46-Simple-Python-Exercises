@@ -14,10 +14,9 @@ def is_pangram(word):
     for i in word:
         if i not in temp_alphabet and i in alphabet:
             temp_alphabet += i
-    print(temp_alphabet)
     if len(temp_alphabet) == 26:
-        print("It's a pangram!")
+        return ("It's a pangram!")
     else:
-        print("It's not a pangram!")
+        return ("It's not a pangram!")
 
-is_pangram(pangram)
+print is_pangram(pangram)

@@ -8,7 +8,7 @@ num2 = int(input('Please input your second number'))
 
 def max(num1,num2):
     if num1 > num2:
-        print (num1)
+        return num1
     else:
-        print (num2)
-max(num1,num2)
+        return num2
+print max(num1,num2)

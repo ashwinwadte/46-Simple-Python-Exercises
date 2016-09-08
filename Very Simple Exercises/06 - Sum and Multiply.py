@@ -8,13 +8,13 @@ def sum(your_list):
     sum_of_list = 0
     for i in your_list:
         sum_of_list += i
-    print(sum_of_list)
+    return sum_of_list
 
 def multiply(your_list):
     sum_of_list = 1
     for i in your_list:
         sum_of_list *= i
-    print(sum_of_list)
+    return sum_of_list
 
-sum(your_list)
-multiply(your_list)
+print sum(your_list)
+print multiply(your_list)

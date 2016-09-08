@@ -28,6 +28,6 @@ def make_3sg_form(list_of_strings):
         else:
             i += 's'
             transformed_strings.append(i)
-    print(transformed_strings)
+    return transformed_strings
 
-make_3sg_form(examples)
+print(make_3sg_form(examples))

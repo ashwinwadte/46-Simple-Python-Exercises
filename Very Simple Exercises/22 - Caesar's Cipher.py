@@ -35,6 +35,6 @@ def cipher(encoded_string):
                 if value == i:
                     decrypted += key[i]
 
-    print(decrypted)
+    return decrypted
 
-cipher(a_string)
+print cipher(a_string)

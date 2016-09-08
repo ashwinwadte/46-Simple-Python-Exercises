@@ -8,6 +8,6 @@ For example, histogram([4, 9, 7]) should print the following:
 numbers = [4,9,7]
 def histogram(a_list):
     for i in a_list:
-        print(i * '*')
+        return (i * '*')
 
-histogram(numbers)
+print histogram(numbers)

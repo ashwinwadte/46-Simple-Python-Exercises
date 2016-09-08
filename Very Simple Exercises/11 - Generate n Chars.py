@@ -10,6 +10,6 @@ def generate_n_chars(n,c):
     generated_string = ''
     for i in range(0,n):
         generated_string += c
-    print (generated_string)
+    return generated_string
 
-generate_n_chars(5, 'x')
+print generate_n_chars(5, 'x')

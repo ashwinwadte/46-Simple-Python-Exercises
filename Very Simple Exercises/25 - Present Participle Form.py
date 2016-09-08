@@ -35,8 +35,8 @@ def make_ing_form(list_of_strings):
 
 
 
-    print(transformed_strings)
+    return transformed_strings
 
-make_ing_form(example)
+print(make_ing_form(example))
 
 

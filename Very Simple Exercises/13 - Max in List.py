@@ -14,5 +14,5 @@ def max_in_list(a_list):
         if i > max_number:
             max_number = i
 
-    print(max_number)
-max_in_list(list_numbers)
+    return max_number
+print max_in_list(list_numbers)

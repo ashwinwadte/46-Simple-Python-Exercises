@@ -6,8 +6,8 @@ character = input('Please enter a character')
 
 def is_vowel(character):
     if character in 'AaEeIiOoUU':
-        print("It's a vowel!")
+        return ("It's a vowel!")
     else:
-        print("It's not a vowel!")
+        return ("It's not a vowel!")
 
-is_vowel(character)
+print is_vowel(character)

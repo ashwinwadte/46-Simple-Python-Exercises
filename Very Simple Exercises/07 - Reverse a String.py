@@ -5,6 +5,6 @@ For example, reverse("I am testing") should return the string "gnitset ma I".
 
 str = input('Please input your string and it will reversed')
 def reverse(str):
-    print(str[::-1])
+    return (str[::-1])
 
-reverse(str)
+print reverse(str)

@@ -14,6 +14,6 @@ def char_freq(a_string):
             frequency_dict[i] += 1
         else:
             frequency_dict[str(i)] = 1
-    print (frequency_dict)
+    return frequency_dict
 
-char_freq(a_string)
+print char_freq(a_string)

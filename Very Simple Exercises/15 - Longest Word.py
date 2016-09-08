@@ -9,6 +9,6 @@ def find_longest_word(list_of_words):
     for i in list_of_words:
         if len(i) > len_of_longest_word:
             len_of_longest_word = len(i)
-    print(len_of_longest_word)
+    return len_of_longest_word
 
-find_longest_word(list_words)
+print find_longest_word(list_words)

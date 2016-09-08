@@ -7,8 +7,8 @@ members = ['Aaron','Jackson','Jacob']
 member_name = input('Please input your name')
 def is_member(member_name):
     if member_name in members:
-        print (True)
+        return True
     else:
-        print (False)
+        return False
 
-is_member(member_name)
+print is_member(member_name)

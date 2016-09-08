@@ -21,7 +21,7 @@ def translate(word):
         try:
             translated.append(swedish_english[i])
         except:
-            print('Error')
-    print(' '.join(translated))
+            return ('Error')
+    return ' '.join(translated)
 
-translate(word)
+print translate(word)

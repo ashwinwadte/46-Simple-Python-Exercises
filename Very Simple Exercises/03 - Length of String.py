@@ -10,6 +10,6 @@ def calc_length(list_or_string):
     length = 0;
     for i in list_or_string:
         length += 1
-    print(length)
+    return length
 
-calc_length(demo_string)
+print calc_length(demo_string)

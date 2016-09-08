@@ -14,6 +14,6 @@ def overlapping():
             if i == j:
                 overlapped = True
 
-    print (overlapped)
+    return overlapped
 
-overlapping()
+print overlapping()

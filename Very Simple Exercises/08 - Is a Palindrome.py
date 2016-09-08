@@ -8,8 +8,8 @@ str = input("Please enter text to see if it's a palindrome")
 def is_palindrome(str):
     str.lower()
     if str == str[::-1] :
-        print("It's a palindrome")
+        return ("It's a palindrome")
     else:
-        print("It's not a palindrome")
+        return ("It's not a palindrome")
 
-is_palindrome(str)
+print is_palindrome(str)
