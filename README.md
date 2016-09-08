@@ -130,10 +130,10 @@ Your task in this exercise is to define a function make_ing_form() which given a
 ***
 # Higher order functions and list comprehensions
 
-### Exercise 26 - Reduce or Max
+### [Exercise 26 - Reduce or Max]
 Using the higher order function reduce(), write a function max_in_list() that takes a list of numbers and returns the largest one. Then ask yourself: why define and call a new function, when I can just as well call the reduce() function directly?
 
-### Exercise 27 - Mapping words
+### [Exercise 27 - Mapping Words]
 Write a program that maps a list of words into a list of integers representing the lengths of the correponding words. Write it in three different ways: 1) using a for-loop, 2) using the higher order function map(), and 3) using list comprehensions.
 
 
@@ -311,3 +311,5 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 23 - Spell Check]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/23%20-%20Spell%20Check.py>
    [Exercise 24 - Third Person Transformer]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/24%20-%20Third%20Person%20Transformer.py>
    [Exercise 25 - Present Participle Form]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/25%20-%20Present%20Participle%20Form.py>
+   [Exercise 26 - Reduce or Max]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/26%20-%20Reduce%20or%20Max.py>
+   [Exercise 27 - Mapping Words]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/27%20-%20Mapping%20Words.py>
