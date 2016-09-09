@@ -137,10 +137,10 @@ Using the higher order function reduce(), write a function max_in_list() that ta
 Write a program that maps a list of words into a list of integers representing the lengths of the correponding words. Write it in three different ways: 1) using a for-loop, 2) using the higher order function map(), and 3) using list comprehensions.
 
 
-### Exercise 28 - Find Longest Word (Higher order functions)
+### [Exercise 28 - Find Longest Word (Higher order functions)]
 Write a function find_longest_word() that takes a list of words and returns the length of the longest one. Use only higher order functions.
 
-### Exercise 29 - Filter Long Words (Higher order functions)
+### [Exercise 29 - Filter Long Words (Higher order functions)]
 Using the higher order function filter(), define a function filter_long_words() that takes a list of words and an integer n and returns the list of words that are longer than n.
 
 ### Exercise 30 -Translator (Higher order functions)
@@ -313,3 +313,5 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 25 - Present Participle Form]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Very%20Simple%20Exercises/25%20-%20Present%20Participle%20Form.py>
    [Exercise 26 - Reduce or Max]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/26%20-%20Reduce%20or%20Max.py>
    [Exercise 27 - Mapping Words]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/27%20-%20Mapping%20Words.py>
+   [Exercise 28 - Find Longest Word (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/28%20-%20Find%20Longest%20Word.py>
+   [Exercise 29 - Filter Long Words (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/29%20-%20Filter%20Long%20Words.py>
