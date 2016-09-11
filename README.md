@@ -143,10 +143,10 @@ Write a function find_longest_word() that takes a list of words and returns the 
 ### [Exercise 29 - Filter Long Words (Higher order functions)]
 Using the higher order function filter(), define a function filter_long_words() that takes a list of words and an integer n and returns the list of words that are longer than n.
 
-### Exercise 30 -Translator (Higher order functions)
+### [Exercise 30 -Translator (Higher order functions)]
 Represent a small bilingual lexicon as a Python dictionary in the following fashion {"merry":"god", "christmas":"jul", "and":"och", "happy":gott", "new":"nytt", "year":"år"} and use it to translate your Christmas cards from English into Swedish. Use the higher order function map() to write a function translate() that takes a list of English words and returns a list of Swedish words.
 
-### Exercise 31 - Student becomes more like master
+### [Exercise 31 - Student becomes more like master]
 Implement the higher order functions map(), filter() and reduce(). (They are built-in but writing them yourself may be a good exercise.)
 
 ***
@@ -315,3 +315,4 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 27 - Mapping Words]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/27%20-%20Mapping%20Words.py>
    [Exercise 28 - Find Longest Word (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/28%20-%20Find%20Longest%20Word.py>
    [Exercise 29 - Filter Long Words (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/29%20-%20Filter%20Long%20Words.py>
+   [Exercise 30 -Translator (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/30%20-%20Translator.py>
