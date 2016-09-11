@@ -316,3 +316,4 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 28 - Find Longest Word (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/28%20-%20Find%20Longest%20Word.py>
    [Exercise 29 - Filter Long Words (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/29%20-%20Filter%20Long%20Words.py>
    [Exercise 30 -Translator (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/30%20-%20Translator.py>
+   [Exercise 31 - Student becomes more like master]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/31%20-%20Student%20Becomes%20Master.py>
