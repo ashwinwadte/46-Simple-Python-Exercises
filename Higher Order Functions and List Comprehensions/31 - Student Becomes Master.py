@@ -7,10 +7,17 @@ Implement the higher order functions map(), filter() and reduce().
 
 example = ['Apple','Jack','Google']
 
-# implementation of the map() function
+# my implementation of the map() function
 def my_map(function, sequence):
     result = []
     for i in sequence:
         result.append(function(i))
     return result
 
+# my implementation of the filter() function
+def my_filter(function, list):
+    result = []
+    for item in list:
+        if item:
+            result += item
+    return result
