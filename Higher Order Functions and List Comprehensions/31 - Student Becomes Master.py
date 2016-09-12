@@ -27,10 +27,10 @@ def my_filter(function, sequence):
         result = []
     for item in sequence:
         if function(item):
-            if isinstance(sequence, tuple):
-                result += (item,)
-            elif isinstance(sequence, str):
+            if isinstance(sequence, str):
                 result += item
+            elif isinstance(sequence, tuple):
+                result += (item,)
             else:
                 result.append(item)
     return result
