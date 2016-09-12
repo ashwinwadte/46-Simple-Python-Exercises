@@ -15,9 +15,22 @@ def my_map(function, sequence):
     return result
 
 # my implementation of the filter() function
-def my_filter(function, list):
-    result = []
-    for item in list:
-        if item:
-            result += item
+
+def my_filter(function, sequence):
+    #returns string
+    if isinstance(sequence, str):
+        result = ''
+    # returns tuple
+    elif isinstance(sequence, tuple):
+        result = ()
+    else:
+        result = []
+    for item in sequence:
+        if function(item):
+            if isinstance(sequence, tuple):
+                result += (item,)
+            elif isinstance(sequence, str):
+                result += item
+            else:
+                result.append(item)
     return result
