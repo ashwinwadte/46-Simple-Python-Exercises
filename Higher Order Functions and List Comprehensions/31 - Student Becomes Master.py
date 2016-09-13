@@ -25,6 +25,7 @@ def my_filter(function, sequence):
         result = ()
     else:
         result = []
+
     for item in sequence:
         if function(item):
             if isinstance(sequence, str):
@@ -34,3 +35,20 @@ def my_filter(function, sequence):
             else:
                 result.append(item)
     return result
+
+# this took a while to grasp.
+def my_reduce(function, sequence, start=None):
+    #sets it to the starting value if start is set, else, set it to the first value
+    result = start if start else sequence[0]
+    if start:
+        for item in sequence:
+            result = function(result, item)
+    else:
+        for item in sequence[1:]:
+            result = function(result, item)
+    return result
+
+
+print my_map(lambda x: x * 2, [1,2,3,4])
+print my_filter(lambda x: x.endswith('le'), example)
+print my_reduce(lambda x, y: x+y, [1, 2, 3, 4, 5], 5)
