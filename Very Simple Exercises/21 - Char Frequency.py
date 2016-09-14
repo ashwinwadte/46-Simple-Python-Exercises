@@ -7,7 +7,6 @@ a_string = 'abbabcbdbabdbdbabababcbcbab'
 
 def char_freq(a_string):
     frequency_dict = {
-
     }
     for i in a_string:
         if i in frequency_dict:
