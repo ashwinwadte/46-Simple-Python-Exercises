@@ -152,13 +152,13 @@ Implement the higher order functions map(), filter() and reduce(). (They are bui
 ***
 # Simple exercises including I/O
 
-### Exercise 32 - Palindrome in File
+### [Exercise 32 - Palindrome in File]
 Write a version of a palindrome recogniser that accepts a file name from the user, reads each line, and prints the line to the screen if it is a palindrome.
 
-### Exercise 33 - Semordnilap
+### [Exercise 33 - Semordnilap]
 According to Wikipedia, a semordnilap is a word or phrase that spells a different word or phrase backwards. ("Semordnilap" is itself "palindromes" spelled backwards.) Write a semordnilap recogniser that accepts a file name (pointing to a list of words) from the user and finds and prints all pairs of words that are semordnilaps to the screen. For example, if "stressed" and "desserts" is part of the word list, the the output should include the pair "stressed desserts". Note, by the way, that each pair by itself forms a palindrome!
 
-### Exercise 34- Terminal Character Frequency
+### [Exercise 34- Terminal Character Frequency]
 Write a procedure char_freq_table() that, when run in a terminal, accepts a file name from the user, builds a frequency listing of the characters contained in the file, and prints a sorted and nicely formatted character frequency table to the screen.
 
 ### Exercise 35 - International Civil Aviation Organization
@@ -317,3 +317,7 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 29 - Filter Long Words (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/29%20-%20Filter%20Long%20Words.py>
    [Exercise 30 -Translator (Higher order functions)]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/30%20-%20Translator.py>
    [Exercise 31 - Student becomes more like master]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Higher%20Order%20Functions%20and%20List%20Comprehensions/31%20-%20Student%20Becomes%20Master.py>
+   [Exercise 32 - Palindrome in File]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/32%20-%20Palindrome%20in%20File.py>
+   [Exercise 33 - Semordnilap]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/33%20-%20Semordnilap.py>
+   [Exercise 34- Terminal Character Frequency]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/34%20-%20Terminal%20Character%20Frequency.py>
+   
