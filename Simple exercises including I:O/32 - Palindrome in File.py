@@ -19,4 +19,4 @@ def file_opener(filename):
         else:
             pass
 
-print file_opener('palindromes.txt')
+print (file_opener('palindromes.txt'))

@@ -11,7 +11,7 @@ Note, by the way, that each pair by itself forms a palindrome!
 
 import re
 
-file_name = raw_input('Please input your file name')
+file_name = input('Please input your file name')
 
 def semordnilap_checker(file_name):
     f = open(file_name, 'r')
@@ -20,7 +20,7 @@ def semordnilap_checker(file_name):
         #removes all spaces,punctuations and make all characters lower cased
         line = re.sub(r'[^a-zA-Z]', "", line).lower()
         if line[::-1] in result:
-            print line, line[::-1]
+            print (line, line[::-1])
         else:
             result.append(line)
 
