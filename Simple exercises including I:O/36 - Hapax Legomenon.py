@@ -18,4 +18,5 @@ def hapax_checker(file_name):
     hapaxes = list(filter(lambda x: words.count(x) == 1, words))
     return hapaxes
 
-print(hapax_checker('hapax.txt'))
+file_name = input('Please enter your file name')
+print(hapax_checker(file_name))
