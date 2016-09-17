@@ -161,7 +161,7 @@ According to Wikipedia, a semordnilap is a word or phrase that spells a differen
 ### [Exercise 34- Terminal Character Frequency]
 Write a procedure char_freq_table() that, when run in a terminal, accepts a file name from the user, builds a frequency listing of the characters contained in the file, and prints a sorted and nicely formatted character frequency table to the screen.
 
-### Exercise 35 - International Civil Aviation Organization
+### [Exercise 35 - International Civil Aviation Organization]
 The International Civil Aviation Organization (ICAO) alphabet assigns code words to the letters of the English alphabet acrophonically (Alfa for A, Bravo for B, etc.) so that critical combinations of letters (and numbers) can be pronounced and understood by those who transmit and receive voice messages by radio or telephone regardless of their native language, especially when the safety of navigation or persons is essential. Here is a Python dictionary covering one version of the ICAO alphabet:
 
 >d = {'a':'alfa', 'b':'bravo', 'c':'charlie', 'd':'delta', 'e':'echo', 'f':'foxtrot',
@@ -172,7 +172,7 @@ The International Civil Aviation Organization (ICAO) alphabet assigns code words
      
 Your task in this exercise is to write a procedure speak_ICAO() able to translate any text (i.e. any string) into spoken ICAO words. You need to import at least two libraries: os and time. On a mac, you have access to the system TTS (Text-To-Speech) as follows: os.system('say ' + msg), where msg is the string to be spoken. (Under UNIX/Linux and Windows, something similar might exist.) Apart from the text to be spoken, your procedure also needs to accept two additional parameters: a float indicating the length of the pause between each spoken ICAO word, and a float indicating the length of the pause between each word spoken.
 
-### Exercise 36 - Hapax Legomenon
+### [Exercise 36 - Hapax Legomenon]
 A hapax legomenon (often abbreviated to hapax) is a word which occurs only once in either the written record of a language, the works of an author, or in a single text. Define a function that given the file name of a text will return all its hapaxes. Make sure your program ignores capitalization.
 
 ### Exercise 37 - Text Novice
@@ -320,4 +320,7 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 32 - Palindrome in File]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/32%20-%20Palindrome%20in%20File.py>
    [Exercise 33 - Semordnilap]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/33%20-%20Semordnilap.py>
    [Exercise 34- Terminal Character Frequency]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/34%20-%20Terminal%20Character%20Frequency.py>
+   [Exercise 35 - International Civil Aviation Organization]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/35%20-%20International%20Civil%20Aviation%20Organization.py>
+   [Exercise 36 - Hapax Legomenon]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/36%20-%20Hapax%20Legomenon.py>
+   
    
