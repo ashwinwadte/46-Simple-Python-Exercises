@@ -10,7 +10,7 @@ def hapax_checker(file_name):
     #substitutue all non letters with spaces
     f = re.sub(r'[^A-Za-z]', ' ', f)
     words = f.lower().split(' ')
-    print(words)
+    f.close()
 
     for line in f:
         words.append(line.lower().split())

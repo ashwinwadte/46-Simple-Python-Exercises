@@ -41,6 +41,7 @@ def speak_ICAO(message,icao_pause_length,word_pause_length):
 
     for word in message:
         for char in word:
+            #outputs the ICAO versions of letters
             os.system(str(icao_dict[char]))
             time.sleep(icao_pause_length)
         time.sleep(word_pause_length)
