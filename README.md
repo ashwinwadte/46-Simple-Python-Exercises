@@ -175,7 +175,7 @@ Your task in this exercise is to write a procedure speak_ICAO() able to translat
 ### [Exercise 36 - Hapax Legomenon]
 A hapax legomenon (often abbreviated to hapax) is a word which occurs only once in either the written record of a language, the works of an author, or in a single text. Define a function that given the file name of a text will return all its hapaxes. Make sure your program ignores capitalization.
 
-### Exercise 37 - Text Novice
+### [Exercise 37 - Text Novice]
 Write a program that given a text file will create a new text file in which all the lines from the original file are numbered from 1 to n (where n is the number of lines in the file).
 
 ### Exercise 38 - Average Words in File
@@ -322,5 +322,6 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 34- Terminal Character Frequency]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/34%20-%20Terminal%20Character%20Frequency.py>
    [Exercise 35 - International Civil Aviation Organization]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/35%20-%20International%20Civil%20Aviation%20Organization.py>
    [Exercise 36 - Hapax Legomenon]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/36%20-%20Hapax%20Legomenon.py>
+   [Exercise 37 - Text Novice]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/37%20-%20Text%20Novice.py>
    
    
