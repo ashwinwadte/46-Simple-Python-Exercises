@@ -7,7 +7,6 @@ engths of the word tokens in the text, divided by the number of word tokens).
 import re
 def average_words(file_name):
     f = open(file_name, 'r').read()
-
     #removes all non alphabet characters
     f = re.sub(r'[^A-Za-z]', ' ', f)
     words = f.split()
