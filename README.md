@@ -178,10 +178,10 @@ A hapax legomenon (often abbreviated to hapax) is a word which occurs only once 
 ### [Exercise 37 - Text Novice]
 Write a program that given a text file will create a new text file in which all the lines from the original file are numbered from 1 to n (where n is the number of lines in the file).
 
-### Exercise 38 - Average Words in File
+### [Exercise 38 - Average Words in File]
 Write a program that will calculate the average word length of a text stored in a file (i.e the sum of all the lengths of the word tokens in the text, divided by the number of word tokens).
 
-### Exercise 39 - Guess The Number
+### [Exercise 39 - Guess The Number]
 Write a program able to play the "Guess the number"-game, where the number to be guessed is randomly chosen between 1 and 20. (Source: http://inventwithpython.com) This is how it should work when run in a terminal:
 
 * <<< import guess_number
@@ -323,5 +323,7 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 35 - International Civil Aviation Organization]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/35%20-%20International%20Civil%20Aviation%20Organization.py>
    [Exercise 36 - Hapax Legomenon]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/36%20-%20Hapax%20Legomenon.py>
    [Exercise 37 - Text Novice]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/37%20-%20Text%20Novice.py>
+   [Exercise 38 - Average Words in File]:
+   [Exercise 39 - Guess The Number]:
    
    

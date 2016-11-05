@@ -24,10 +24,10 @@ def guess_game():
     count = 1
     while guess != random_number:
         if guess > random_number:
-            guess = int(input("Well, " + user_name +', Your guess is too high'))
+            guess = int(input("Well, " + user_name +', Your guess is too high, try lower: '))
         else:
-            guess = int(input("Well, " + user_name + ', Your guess is too low'))
+            guess = int(input("Well, " + user_name + ', Your guess is too low, try higher: '))
         count += 1
-    return ('Good Job '+ user_name + 'You guess my number in ' +str(count) + ' guesses')
+    return ('Good Job '+ user_name + ', You guess my number in ' + str(count) + ' guesses')
 
 print (guess_game())
