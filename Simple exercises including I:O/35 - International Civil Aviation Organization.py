@@ -34,14 +34,14 @@ icao_dict = {'a':'alfa', 'b':'bravo', 'c':'charlie', 'd':'delta', 'e':'echo',
     'z':'zulu'}
 
 def speak_ICAO(message,icao_pause_length,word_pause_length):
-    #removes all characters that aren't words
+    # removes all characters that aren't words
     message = re.sub(r'[^A-Za-z]', ' ', message)
-    #splits it into individual words
+    # splits it into individual words
     message = message.lower().split(' ')
 
     for word in message:
         for char in word:
-            #outputs the ICAO versions of letters
+            # outputs the ICAO versions of letters
             os.system(str(icao_dict[char]))
             time.sleep(icao_pause_length)
         time.sleep(word_pause_length)

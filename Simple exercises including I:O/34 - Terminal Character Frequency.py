@@ -3,19 +3,26 @@ Write a procedure char_freq_table() that, when run in a terminal,
 accepts a file name from the user, builds a frequency listing of the characters contained in the file,
 and prints a sorted and nicely formatted character frequency table to the screen.
 '''
+import re
+file_name = input('please enter your file name')
+
+def char_freq_table(file_name):
+    frequency_dict = {
+    }
+    with open(file_name,'r') as f:
+        for line in f:
+            # ignores all white space
+            line = re.sub(r'[\s]', "", line).lower()
+            for char in line:
+                if char in frequency_dict:
+                    frequency_dict[char] += 1
+                else:
+                    frequency_dict[str(char)] = 1
+    print ('Here are the results')
+    # sorts character in a descending order - greatest to smallest
+    for char in sorted(frequency_dict.items(),key=lambda x: x[1],reverse=True):
+        print (char[0], frequency_dict[char[0]])
 
 
-def my_program():
-    my_name = input('Hello! What is your name?')
-    age = int(input('Nice to meet you, ' + myName + '\n' + 'How old are you?'))
-    if age > 30:
-        answer = input("Wow! You're old... \n" + 'Do you have any children')
-
-        if answer == 'yes':
-            num_of_kids = int(input('how many?'))
-
-            if num_of_kids == 3:
-                eldest_kid = input('Who is your eldest son?')
-
-
-
+#test
+char_freq_table(file_name)

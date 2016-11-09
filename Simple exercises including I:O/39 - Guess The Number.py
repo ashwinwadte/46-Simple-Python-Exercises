@@ -28,6 +28,6 @@ def guess_game():
         else:
             guess = int(input("Well, " + user_name + ', Your guess is too low, try higher: '))
         count += 1
-    return ('Good Job '+ user_name + ', You guess my number in ' + str(count) + ' guesses')
+    return 'Good Job ' + user_name + ', You guess my number in ' + str(count) + ' guesses'
 
-print (guess_game())
+print(guess_game())

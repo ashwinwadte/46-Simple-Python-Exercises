@@ -323,7 +323,10 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 35 - International Civil Aviation Organization]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/35%20-%20International%20Civil%20Aviation%20Organization.py>
    [Exercise 36 - Hapax Legomenon]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/36%20-%20Hapax%20Legomenon.py>
    [Exercise 37 - Text Novice]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/37%20-%20Text%20Novice.py>
-   [Exercise 38 - Average Words in File]:
-   [Exercise 39 - Guess The Number]:
+   [Exercise 38 - Average Words in File]:<>
+   [Exercise 39 - Guess The Number]:<>
+   [Exercise 40 - Anagram]:<>
+   [Exercise 41 - Lingo]:<>
+   [Exercise 42- Sentence Splitter]:<>
    
    

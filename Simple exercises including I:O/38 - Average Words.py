@@ -6,17 +6,19 @@ engths of the word tokens in the text, divided by the number of word tokens).
 
 import re
 def average_words(file_name):
-    f = open(file_name, 'r').read()
-    #removes all non alphabet characters
-    f = re.sub(r'[^A-Za-z]', ' ', f)
-    words = f.split()
-    length_of_words = 0
+    with open(file_name, 'r') as f:
+        f = f.read()
+        # removes all non alphabet characters
+        f = re.sub(r'[^A-Za-z]', ' ', f)
+        words = f.split()
+        length_of_words = 0
 
-    for word in words:
-        for letter in word:
-            length_of_words += 1
+        for word in words:
+            for letter in word:
+                length_of_words += 1
 
-    return (length_of_words / len(words))
+    # returns an integer, rather than tuple
+    return int(length_of_words / len(words))
 
 print (average_words('lorem.txt'))
 

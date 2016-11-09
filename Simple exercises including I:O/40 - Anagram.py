@@ -17,14 +17,16 @@ import random
 
 
 def anagram_gamer(words, topic):
+
     anagrams = []
     done = False
+
+    # generates anagrams for all the words given.
     for word in words:
         anagrams.append(''.join(random.sample(word, len(word))))
     current_anagram = random.randrange(len(anagrams))
 
     while not done:
-
         user_answer = input("Your topic is " + topic + ". Guess the original word for this anagram: "+ anagrams[current_anagram])
         if user_answer.lower() == words[current_anagram].lower():
             response = input("You're correct! Do you want to try again? please enter either 'y' or 'n' ?")

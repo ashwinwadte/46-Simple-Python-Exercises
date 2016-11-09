@@ -12,11 +12,11 @@ def palindrome_checker(text):
         return False
 
 def file_opener(filename):
-    f = open(filename, 'r')
-    for line in f:
-        if palindrome_checker(line):
-            print(line)
-        else:
-            pass
+    with open(filename, 'r') as f:
+        for line in f:
+            if palindrome_checker(line):
+                print(line)
+            else:
+                pass
 
 print (file_opener('palindromes.txt'))

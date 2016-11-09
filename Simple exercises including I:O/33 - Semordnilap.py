@@ -14,14 +14,14 @@ import re
 file_name = input('Please input your file name')
 
 def semordnilap_checker(file_name):
-    f = open(file_name, 'r')
-    result = []
-    for line in f:
-        #removes all spaces,punctuations and make all characters lower cased
-        line = re.sub(r'[^a-zA-Z]', "", line).lower()
-        if line[::-1] in result:
-            print (line, line[::-1])
-        else:
-            result.append(line)
+    with open(file_name, 'r') as f:
+        result = []
+        for line in f:
+            # removes all spaces,punctuations and make all characters lower cased
+            line = re.sub(r'[^a-zA-Z]', "", line).lower()
+            if line[::-1] in result:
+                print (line, line[::-1])
+            else:
+                result.append(line)
 
 semordnilap_checker(file_name)

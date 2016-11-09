@@ -43,4 +43,4 @@ def lingo(word):
         # recursive until user is correct
         lingo(word)
 
-lingo('tiger')
+print (lingo('tiger'))
