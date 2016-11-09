@@ -198,7 +198,7 @@ Write a program able to play the "Guess the number"-game, where the number to be
 * 18
 * Good job, Torbjörn! You guessed my number in 3 guesses!
 
-### Exercise 40 - Anagram
+### [Exercise 40 - Anagram]
 An anagram is a type of word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once; e.g., orchestra = carthorse, A decimal point = I'm a dot in place. Write a Python program that, when started 1) randomly picks a word w from given list of words, 2) randomly permutes w (thus creating an anagram of w), 3) presents the anagram to the user, and 4) enters an interactive loop in which the user is invited to guess the original word. It may be a good idea to work with (say) colour words only. The interaction with the program may look like so:
 
 >>> import anagram
@@ -209,7 +209,7 @@ An anagram is a type of word play, the result of rearranging the letters of a wo
 * brown
 * Correct!
 
-### Exercise 41 - Lingo
+### [Exercise 41 - Lingo]
 In a game of Lingo, there is a hidden word, five characters long. The object of the game is to find this word by guessing, and in return receive two kinds of clues: 1) the characters that are fully correct, with respect to identity as well as to position, and 2) the characters that are indeed present in the word, but which are placed in the wrong position. Write a program with which one can play Lingo. Use square brackets to mark characters correct in the sense of 1), and ordinary parentheses to mark characters correct in the sense of 2). Assuming, for example, that the program conceals the word "tiger", you should be able to interact with it in the following way:
 
 >>> import lingo
@@ -225,7 +225,7 @@ In a game of Lingo, there is a hidden word, five characters long. The object of 
 ***
 # Somewhat Harder Exercises
 
-### Exercise 42 - Sentence Splitter
+### [Exercise 42 - Sentence Splitter]
 A sentence splitter is a program capable of splitting a text into sentences. The standard set of heuristics for sentence splitting includes (but isn't limited to) the following rules:
 
 Sentence boundaries occur at one of "." (periods), "?" or "!", except that
