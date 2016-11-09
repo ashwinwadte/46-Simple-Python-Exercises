@@ -323,10 +323,10 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 35 - International Civil Aviation Organization]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/35%20-%20International%20Civil%20Aviation%20Organization.py>
    [Exercise 36 - Hapax Legomenon]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/36%20-%20Hapax%20Legomenon.py>
    [Exercise 37 - Text Novice]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/37%20-%20Text%20Novice.py>
-   [Exercise 38 - Average Words in File]:<>
-   [Exercise 39 - Guess The Number]:<>
-   [Exercise 40 - Anagram]:<>
-   [Exercise 41 - Lingo]:<>
-   [Exercise 42- Sentence Splitter]:<>
+   [Exercise 38 - Average Words in File]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/38%20-%20Average%20Words.py>
+   [Exercise 39 - Guess The Number]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/39%20-%20Guess%20The%20Number.py>
+   [Exercise 40 - Anagram]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/40%20-%20Anagram.py>
+   [Exercise 41 - Lingo]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/41%20-%20Lingo.py>
+   [Exercise 42- Sentence Splitter]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Somewhat%20Harder%20Exercises/42%20-%20Sentence%20Splitter.py>
    
    
