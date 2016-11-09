@@ -225,7 +225,7 @@ In a game of Lingo, there is a hidden word, five characters long. The object of 
 ***
 # Somewhat Harder Exercises
 
-### Exercise 42- Sentence Splitter
+### Exercise 42 - Sentence Splitter
 A sentence splitter is a program capable of splitting a text into sentences. The standard set of heuristics for sentence splitting includes (but isn't limited to) the following rules:
 
 Sentence boundaries occur at one of "." (periods), "?" or "!", except that
@@ -327,6 +327,6 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
    [Exercise 39 - Guess The Number]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/39%20-%20Guess%20The%20Number.py>
    [Exercise 40 - Anagram]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/40%20-%20Anagram.py>
    [Exercise 41 - Lingo]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Simple%20exercises%20including%20I:O/41%20-%20Lingo.py>
-   [Exercise 42- Sentence Splitter]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Somewhat%20Harder%20Exercises/42%20-%20Sentence%20Splitter.py>
+   [Exercise 42 - Sentence Splitter]:<https://github.com/AaronKazah/46-Simple-Python-Exercises/blob/master/Somewhat%20Harder%20Exercises/42%20-%20Sentence%20Splitter.py>
    
    
